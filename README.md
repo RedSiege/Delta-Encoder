@@ -1,7 +1,7 @@
 # Delta-Encoder
 Delta-Encoder will take a raw shellcode file as input and outputs an array of deltas and a C/C++ stub to reconstitute the shellcode in memory. This does not produce a fully working shellcode loader. Delta-Encoder will only produce the encoded shellcode delta array and the code to reconstitute the shellcode at runtime.
 
-For more information on Delta-Encoder, check out the blog here: [https://redsiege.com/blog/2024/04/delta/](https://redsiege.com/blog/2024/04/delta/)
+For more information on Delta-Encoder, check out the blog here: [https://redsiege.com/delta](https://redsiege.com/delta)
 
 ## Usage
 ```python3 delta.py -i inputfile.bin```
